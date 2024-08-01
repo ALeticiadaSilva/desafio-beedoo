@@ -39,13 +39,6 @@ Para a criação da User Story, foi utilizado as seguintes decisões:
 **Eu quero** apagar um curso  
 **Para que** ele não esteja mais disponível na plataforma
 
-#### - User History 5: 
-**Título:** Acessibilidade da Plataforma
-
-**Como um** administrador    
-**Eu quero** que a plataforma seja acessível  
-**Para que** todos os usuários possam ter acesso aos cursos
-
 
 ### 🔎 Documentação dos cenários e casos de teste 
 Segue o link com a documentação de  todos os cenários e casos de teste em uma planilha no Google Docs: [Desafio | Analista de Qualidade de Software Júnior - Beedoo](<hhttps://docs.google.com/spreadsheets/d/159ijMx8oTsYhDUHMJOqc4ss29Ay1g3Bq/edit?usp=sharing&ouid=112393885576234104564&rtpof=true&sd=true>)
