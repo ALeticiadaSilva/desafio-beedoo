@@ -7,44 +7,39 @@ Esse desafio tem como objetivo avaliar meus conhecimentos e habilidades em teste
 - [Visual Studio Code](<https://code.visualstudio.com/>)
 - Baixar a extensão do Visual Code: [Cucumber](<https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete>)
 
-### ✏️ Criação da Users story
-Para a criação da User Story, foi utilizado as seguintes decisões:
+### ✏️ Desições para a criação ds User Stories
+Para a criação das User Stories, foram adotadas as seguintes decisões:
 + **Como um** 
-    + Definição utilizada: É a persona, ou seja, o tipo de usuário que fará a ação no sistema
+    + Definição: Representa a persona ou tipo de usuário que realizará a ação no sistema.
 + **Eu quero**  
-    + Definição utilizada: Trata-se da ação ou funcionalidade que eu quero executar no sistema
+    + Definição: Descreve a ação ou funcionalidade desejada a ser executada no sistema.
 + **Para que** 
-    + Definição utilizada: É o benefício e o resultado que eu desejo obter com a ção executada
+    + Definição: Especifica o benefício e o resultado esperado com a execução da ação.
 
-### 📄 Documentando as Users History
+A heurística CRUD (Create, Read, Update, Delete) foi escolhida como base para a construção das User Stories devido à sua simplicidade e abrangência. No entanto, considerando a documentação do projeto, a funcionalidade de "update" (editar) não está contemplada nesta etapa. Por esse motivo, o foco recaiu na criação de User Stories para as ações de cadastro (create), leitura (read) e exclusão (delete). 
 
-#### - User History 1: 
+### 📄 User Stories
+
+#### - User Story 1: 
 **Título:** Cadastro de Novo Curso
 
 **Como um** administrador  
 **Eu quero** cadastrar novos cursos  
 **Para que** os usuários tenham acesso a novos conteúdos e oportunidades de aprendizado
 
-#### - User History 2: 
+#### - User Story 2: 
 **Título:** Visualização de Todos os Cursos
 
 **Como um** administrador    
 **Eu quero** visualizar todos os cursos criados  
 **Para que** eu possa verificar todos os cursos cadastrados na plataforma
 
-#### - User History 3: 
+#### - User Story 3: 
 **Título:** Exclusão de Curso
 
 **Como um** administrador  
 **Eu quero** apagar um curso  
 **Para que** ele não esteja mais disponível na plataforma
-
-#### - User History 5: 
-**Título:** Acessibilidade da Plataforma
-
-**Como um** administrador    
-**Eu quero** que a plataforma seja acessível  
-**Para que** todos os usuários possam ter acesso aos cursos
 
 
 ### 🔎 Documentação dos cenários e casos de teste 
@@ -59,6 +54,6 @@ Segue o link com a documentação de  todos os cenários e casos de teste em uma
 | Tela de Cadastrar Curso | Definir um limite de caracteres na descrição do curso|
 | Tela de Cadastrar Curso | Não permitir adicionar um curso com o Título duplicado |
 | Tela de Cadastrar Curso | Adicionar um limite válido para a quantidade de vagas do curso |
-| Tela de Listar Cursos | mudar o formato da data para dd/mm/yyyy |
-| Tela de Listar Cursos | patronizar as dimensões das tabelas (div class) de cadastro de curso. |
-|  |  |
+| Tela de Cadastrar Curso | Validar os campos das "Data de início" e "Data Fim" para que o usuário não coloque uma "Data Fim" menor que a data de início |
+| Tela de Listar Cursos | Mudar o formato da data para dd/mm/yyyy |
+| Tela de Listar Cursos | Patronizar as dimensões das tabelas (div class) de cadastro de curso. |
