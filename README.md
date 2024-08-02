@@ -27,6 +27,12 @@ A heurística CRUD (Create, Read, Update, Delete) foi escolhida como base para a
 **Eu quero** cadastrar novos cursos  
 **Para que** os usuários tenham acesso a novos conteúdos e oportunidades de aprendizado
 
+#### Critérios de Aceitação:
+* O sistema deve possuir um formulário para cadastro de novos cursos, com campos para: nome do curso, descrição, nome do instrutor, URL da imagem de capa, data de início, data de fim, número de vagas e tipo de curso. Campos obrigatórios devem ser indicados por um asterisco (*) ao lado do nome do campo.
+* O sistema deve validar os dados inseridos, não permitindo campos em branco e garantindo que os dados estejam no formato correto (por exemplo, datas válidas e nome e sobrenome do instrutor).
+* Caso o nome do curso já esteja cadastrado, o sistema deve exibir uma mensagem de erro informando que o nome do curso já existe.
+* Ao concluir o cadastro com sucesso, o sistema deve exibir uma mensagem de confirmação e redirecionar o usuário para a lista de cursos.
+
 #### - User Story 2: 
 **Título:** Visualização de Todos os Cursos
 
@@ -34,12 +40,24 @@ A heurística CRUD (Create, Read, Update, Delete) foi escolhida como base para a
 **Eu quero** visualizar todos os cursos criados  
 **Para que** eu possa verificar todos os cursos cadastrados na plataforma
 
+#### Critérios de Aceitação:
+* A lista de cursos deve exibir todos os cursos cadastrados pelo usuário administrador.
+* Cada curso na lista deve conter as seguintes informações: nome, descrição, instrutor, imagem de capa, data de início e fim, número de vagas e tipo de curso.
+* Caso não haja cursos cadastrados, o sistema deve exibir uma mensagem informando que "Não há cursos cadastrados no momento" e deve mostrar a página de Listar vazia.
+* Na Tela de lista de cursos deve conter um botão para realizar a exclusão de um curso.
+
 #### - User Story 3: 
 **Título:** Exclusão de Curso
 
 **Como um** administrador  
 **Eu quero** apagar um curso  
 **Para que** ele não esteja mais disponível na plataforma
+
+#### Critérios de Aceitação:
+* Antes de excluir um curso, o sistema deve exibir uma mensagem de confirmação, solicitando ao usuário que confirme a exclusão do curso.
+* A exclusão de um curso deve ser permanente.
+* Caso ocorra algum erro durante a exclusão, o sistema deve exibir uma mensagem clara informando que o curso não pôde ser excluído e o motivo do erro.
+* Após a exclusão bem-sucedida, o sistema deve exibir uma mensagem de confirmação e atualizar a lista de cursos.
 
 
 ### 🔎 Documentação dos cenários e casos de teste 
