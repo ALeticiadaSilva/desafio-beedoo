@@ -32,9 +32,13 @@ Com essa funcionalidade vamos conseguir realizar o Cadastro dos cursos.
         Quando um novo curso é cadastrado com todos os dados vazios
         Então o sistema exibe uma mensagem de erro indicando que "Todos os campos são obrigatórios"
 
-    Cenário: Cadastrar curso com um número de vagas maior do que o esperado
-        Quando um novo curso é cadastrado com o número de vagas maior que o esperado
-        Então o sistema exibe uma mensagem de erro "Número de vagas excede o limite permitido"
+
+    Cenário: Cadastro de curso com nome e data de término menor que a data de início
+        Quando o usuário preenche o campo "Nome do Curso" com "Curso de Teste"
+        E o usuário preenche o campo "Data de Início" com "2024-09-01"
+        E o usuário preenche o campo "Data de Término" com "2024-08-31"
+        E o usuário submete o formulário de cadastro
+        Então o sistema deve exibir uma mensagem de erro indicando que a data de término não pode ser menor que a data de início
 
     Cenário: Verificar o relatório do Lighthouse da Página de Cadastro
         Quando acessarmos o relatório do Lighthouse

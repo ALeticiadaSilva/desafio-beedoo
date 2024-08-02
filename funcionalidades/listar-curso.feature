@@ -22,6 +22,10 @@ Com essa funcionalidade vamos conseguir visualizar todos os cursos que foram cad
         Quando o usuário acessa a página de "Listar Cursos"
         Então a página exibe uma mensagem "Nenhum curso disponível" ou exibe uma página em branco
 
+    Cenário: Acessar a página de "Cadastrar Curso"
+        Quando o usuário acessa a URL "https://creative-sherbet-a51eac.netlify.app/new-course"
+        Então a página de "Cadastrar Curso" deve ser exibida
+
 
     Cenário: Verificar o relatório do Lighthouse da Página de Listar
         Quando acessarmos o relatório do Lighthouse
