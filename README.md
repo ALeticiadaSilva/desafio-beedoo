@@ -1,7 +1,7 @@
 <h1 align="center"> Desafio | Analista de Qualidade de Software Júnior 🧠</h1>
 
 ### 💬 Introdução sobre o projeto
-Esse desafio tem como objetivo avaliar meus conhecimentos e habilidades em teste de software para a vaga de Analista de Qualidade de Software Júnior da Empresa Beedoo. O sistema que foi testado pode ser acessado atravé sdo Link: - [Beedoo QA Tests](<https://creative-sherbet-a51eac.netlify.app/>)
+Esse desafio tem como objetivo avaliar meus conhecimentos e habilidades em teste de software para a vaga de Analista de Qualidade de Software Júnior da Empresa Beedoo. O sistema que foi testado pode ser acessado através do Link: - [Beedoo QA Tests](<https://creative-sherbet-a51eac.netlify.app/>)
 
 ### 👨‍💻 Instalações necessárias
 - [Visual Studio Code](<https://code.visualstudio.com/>)
